@@ -16,3 +16,5 @@ icon.MouseButton1Down:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(false,"LeftShift",false,game)
 end)
 icon.Draggable = true
+UICorner.CornerRadius = UDim.new(0, 94)
+UICorner.Parent = icon
